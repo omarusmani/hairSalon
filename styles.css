@@ -1,32 +1,63 @@
 body{
     /* display:flex;
     justify-content: center; */
-    margin: 0 20px;
-    padding: 0px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* margin: 0 20px;
+    padding: 0px; */
+    background-color: ghostwhite;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     /* padding: 0 20px; */
+    color:white;
 }
 .container{
-    background-color: black;
+    background-color:#3D2645;
     /* width:1000px; */
-    /* display:grid; */
+    display:grid;
     grid-template-columns: 1fr;
 }
 h1{
-    background-color: #fba92c;
+    background-color: #832161;
     text-align: center;
-    border:2px solid red;
+    margin:0px;
+    /* border:2px solid red; */
+    font-size:40px;
+    font-weight:900;
+    margin-bottom: 0;
+    padding-bottom: 5px;
 }
 .nav{
-    margin:0px;
-    padding:0px;
+    /* margin:10px; */
+    /* padding:8px; */
     display:flex;
+    justify-content: space-evenly;
 }
 .nav a {
-    background-color:#ffffff ;
+    font-size: 1.3rem;
+    margin:10px;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color:#9e9e9e ;
 }
- ul{
-    padding: 20px 20px;
-} 
+.footer{
+    color:white;
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-between;
+    padding: 10px;
+}
+a:hover{
+    background-color: #DA4167;
+
+}
+a:active{
+    color:white;
+}
+
+#copyright{
+    display:flex
+    justify-content: center;
+    align-items: center;
+}
 
 
