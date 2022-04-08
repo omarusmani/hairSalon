@@ -13,6 +13,7 @@ body{
     /* width:1000px; */
     display:grid;
     grid-template-columns: 1fr;
+    
 }
 h1{
     background-color: #832161;
@@ -67,9 +68,8 @@ a:active{
 }
 .hero{
     color: black;
-    display:flex;
-    justify-content: space-between;
-    justify-items: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
 }
 .hero-text{
@@ -103,9 +103,17 @@ a:active{
     justify-content: center;
     color:black;
 }
-/* @media (sc)
+@media only screen and (max-width: 600px) {
     
-} */
+      .hero{
+        grid-template-columns: 1fr;
+      }
+      .gallery{
+          grid-template-columns: 1fr;
+          margin-bottom:100px;
+      }
+}
 
+  
 
 
